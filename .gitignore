@@ -1,0 +1,31 @@
+# Arduino build files
+*.hex
+*.elf
+*.eep
+*.lss
+*.map
+*.sym
+*.o
+*.d
+
+# Build directories
+build/
+*.build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Temporary files
+/tmp/
+
+# CodeQL files
+_codeql_detected_source_root
