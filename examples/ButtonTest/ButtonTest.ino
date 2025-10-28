@@ -32,6 +32,14 @@ void loop() {
   static bool lastUp = HIGH;
   static bool lastDown = HIGH;
   static bool lastBack = HIGH;
+  static unsigned long lastDebounceTime = 0;
+  
+  unsigned long currentTime = millis();
+  
+  // Only check buttons after debounce period
+  if (currentTime - lastDebounceTime < 200) {
+    return;
+  }
   
   // Read current button states
   bool btnSelect = digitalRead(BTN_SELECT);
@@ -42,22 +50,22 @@ void loop() {
   // Detect button press (transition from HIGH to LOW)
   if (btnSelect == LOW && lastSelect == HIGH) {
     Serial.println("SELECT button pressed!");
-    delay(200); // Simple debounce
+    lastDebounceTime = currentTime;
   }
   
   if (btnUp == LOW && lastUp == HIGH) {
     Serial.println("UP button pressed!");
-    delay(200);
+    lastDebounceTime = currentTime;
   }
   
   if (btnDown == LOW && lastDown == HIGH) {
     Serial.println("DOWN button pressed!");
-    delay(200);
+    lastDebounceTime = currentTime;
   }
   
   if (btnBack == LOW && lastBack == HIGH) {
     Serial.println("BACK button pressed!");
-    delay(200);
+    lastDebounceTime = currentTime;
   }
   
   // Save states
