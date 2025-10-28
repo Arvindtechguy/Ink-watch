@@ -26,3 +26,6 @@ Thumbs.db
 
 # Temporary files
 /tmp/
+
+# CodeQL files
+_codeql_detected_source_root
