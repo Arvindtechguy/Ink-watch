@@ -310,7 +310,7 @@ If applicable, add screenshots or serial output
 
 ### Where to Document
 
-- `README.md` - Overview and features
+- `../README.md` - Overview and features
 - `docs/GETTING_STARTED.md` - Setup instructions
 - `hardware/HARDWARE.md` - Hardware specs
 - Code comments - Implementation details

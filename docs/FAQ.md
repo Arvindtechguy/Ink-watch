@@ -285,7 +285,7 @@ Not by default (not waterproof):
 ## Support
 
 ### Where can I get help?
-1. Read [GETTING_STARTED.md](docs/GETTING_STARTED.md)
+1. Read [GETTING_STARTED.md](GETTING_STARTED.md)
 2. Check this FAQ
 3. Search existing [GitHub Issues](https://github.com/Arvindtechguy/Ink-watch/issues)
 4. Create new issue with details

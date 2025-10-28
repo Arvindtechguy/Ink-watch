@@ -192,11 +192,11 @@ BATTERY_MAX = 4.2V
 
 ## Useful Links Quick Access
 
-- **Repository**: github.com/Arvindtechguy/Ink-watch
-- **Issues**: github.com/Arvindtechguy/Ink-watch/issues
-- **Arduino Reference**: arduino.cc/reference
-- **Getting Started**: [docs/GETTING_STARTED.md](GETTING_STARTED.md)
-- **FAQ**: [docs/FAQ.md](FAQ.md)
+- **Repository**: [github.com/Arvindtechguy/Ink-watch](https://github.com/Arvindtechguy/Ink-watch)
+- **Issues**: [github.com/Arvindtechguy/Ink-watch/issues](https://github.com/Arvindtechguy/Ink-watch/issues)
+- **Arduino Reference**: [arduino.cc/reference](https://www.arduino.cc/reference)
+- **Getting Started**: [GETTING_STARTED.md](GETTING_STARTED.md)
+- **FAQ**: [FAQ.md](FAQ.md)
 
 ## Emergency Contacts
 
