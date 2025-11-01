@@ -1,0 +1,61 @@
+# Arduino build files
+*.hex
+*.elf
+*.eep
+*.lss
+*.map
+*.sym
+
+# Temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build directories
+build/
+bin/
+
+# Documentation builds
+docs/_build/
+*.pdf
+
+# Python (if used for tools)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# CAD files (temporary)
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*-save.pro
+*-save.kicad_pcb
+
+# OS files
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Test outputs
+test_results/
+coverage/
